@@ -1,0 +1,4 @@
+Prepare presentation
+Write unit tests
+Review code
+Update documentation

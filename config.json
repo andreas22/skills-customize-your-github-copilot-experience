@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "file-automation",
+      "title": "Python File Automation",
+      "description": "Practice file I/O and automation using text and CSV files in Python.",
+      "path": "assignments/file-automation",
+      "dueDate": "2026-06-30",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Task List",
+          "file": "tasks.txt",
+          "type": "text"
+        },
+        {
+          "name": "Sample Task Data",
+          "file": "tasks.csv",
+          "type": "csv"
+        }
+      ]
     }
   ]
 }
