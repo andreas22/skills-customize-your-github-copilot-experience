@@ -1,19 +1,48 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build the classic Hangman word-guessing game in Python to practice string manipulation, loops, conditionals, and user input handling.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Implement the Game Logic
 
-## ✅ Must Have's
+#### Description
+Create a runnable Python program that picks a secret word, accepts letter guesses from the player, and displays the word progress and remaining attempts until the game ends.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly select a secret word from a predefined list.
+- Accept single-letter guesses (case-insensitive) and update the displayed progress (e.g., _ a _ _ m _ _ ).
+- Track and display incorrect guesses and remaining attempts.
+- Prevent counting repeated correct guesses as additional wrong attempts.
+- End the game with a clear win or lose message and reveal the word when lost.
+
+### 🛠️ (Optional) Add Enhancements
+
+#### Description
+Add one or more optional features to improve the game experience.
+
+#### Requirements
+Completed enhancements may include (pick at least one):
+
+- Allow guessing the full word.
+- Show previously guessed letters.
+- Read the word list from an external file (e.g., `data.csv` or `words.txt`).
+- Add ASCII-art hangman stages for each wrong guess.
+
+## Example
+
+Playthrough snippet (example):
+
+- Secret word: "python"
+- Player guesses: `p` → progress: p _ _ _ _ _
+- Player guesses: `y` → progress: p y _ _ _ _
+- Wrong guess: `a` → remaining attempts: 5
+
+---
+
+Follow the project assignment template in `templates/assignment-template.md` and keep this file named `README.md`.
